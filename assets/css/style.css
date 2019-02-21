@@ -144,15 +144,8 @@ input[type=submit] {
 /* Portfolio page styling */
 
 .content {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-}
-  
-.content:nth-child(even) {
-    margin-right: 40px;
+    min-width: 275px;
+    margin: 25px;
 }
   
 .content img {
